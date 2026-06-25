@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Приглашение на свадьбу Азамата и Эльвиры</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body { font-family: 'Montserrat', sans-serif; background-color: #111411; color: #e0e0e0; overflow-x: hidden; scroll-behavior: smooth; }
+        section { min-height: 100vh; display: flex; display: table; width: 100%; text-align: center; position: relative; background-size: cover; background-position: center; }
+        .section-cell { display: table-cell; vertical-align: middle; padding: 40px 20px; }
+        .overlay { position: absolute; top:0; left:0; right:0; bottom:0; background: rgba(17, 20, 17, 0.75); z-index: 1; }
+        .content { position: relative; z-index: 2; max-width: 600px; margin: 0 auto; width: 100%; }
+        h1 { font-family: 'Caveat', cursive; font-size: 3.5rem; color: #d4af37; margin-bottom: 10px; }
+        h2 { font-weight: 300; letter-spacing: 3px; text-transform: uppercase; font-size: 1.2rem; margin-bottom: 20px; color: #b0b0b0; }
+        p { font-size: 1.1rem; line-height: 1.6; margin-bottom: 15px; }
+        .date-badge { border-top: 1px solid #d4af37; border-bottom: 1px solid #d4af37; padding: 15px 0; margin: 30px 0; font-size: 1.3rem; letter-spacing: 2px; color: #d4af37; }
+        .map-btn { display: inline-block; background-color: #d4af37; color: #111; padding: 12px 30px; text-decoration: none; font-weight: 600; border-radius: 25px; margin-top: 20px; text-transform: uppercase; letter-spacing: 1px; }
+        .map-container { width: 100%; margin-top: 25px; border-radius: 10px; overflow: hidden; border: 2px solid #d4af37; }
+    </style>
+</head>
+<body>
+
+    <section style="background-image: url('https://images.unsplash.com/photo-1519741497674-611481863552?q=80&w=1200&auto=format&fit=crop');">
+        <div class="overlay"></div>
+        <div class="section-cell">
+            <div class="content">
+                <h2>Вы приглашены на свадьбу</h2>
+                <h1>Азамат & Эльвира</h1>
+                <div class="date-badge">
+                    18 ИЮЛЯ 2026<br>
+                    СУББОТА // 11:00
+                </div>
+                <p>Ждем вас, чтобы разделить наше счастье!</p>
+            </div>
+        </div>
+    </section>
+
+    <section style="background-image: url('https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=1200&auto=format&fit=crop');">
+        <div class="overlay"></div>
+        <div class="section-cell">
+            <div class="content">
+                <h2>Место проведения</h2>
+                <p>Торжество состоится в ресторане <strong>«Хванчкара»</strong>.</p>
+                <p>По адресу: г. Балашиха, ул. Советская, д. 36.</p>
+                
+                <a href="https://yandex.ru/maps/?text=Балашиха+Советская+36+ресторан+Хванчкара" target="_blank" class="map-btn">Открыть на Яндекс.Картах</a>
+
+                <div class="map-container">
+                    <iframe src="https://yandex.ru/map-widget/v1/?text=%D0%91%D0%B0%D0%BB%D0%B0%D1%88%D0%B8%D1%85%D0%B0%2C%20%D0%A1%D0%BE%D0%B2%D0%B5%D1%82%D1%81%D0%BA%D0%B0%D1%8F%2036" width="100%" height="300" frameborder="0" allowfullscreen="true"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</body>
+</html>
